@@ -1,0 +1,10 @@
+def multiplicacao_vetor(vetor):
+    resultado = 1
+    for elemento in vetor:
+        resultado *= elemento
+    return resultado
+
+# Exemplo de uso:
+numeros = [1, 2, 3, 4, 5]
+resultado = multiplicacao_vetor(numeros)
+print("O resultado da multiplicação dos elementos do vetor é:", resultado)
