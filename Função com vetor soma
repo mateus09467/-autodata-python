@@ -1,16 +1,10 @@
-import os 
+def soma_vetor(vetor):
+    soma = 0
+    for elemento in vetor:
+        soma += elemento
+    return soma
 
-def soma(a, b):
-    os.system("cls||clear")
-    print(a + b)
-
-num = []
-
-for i in range(2):
-    n = int(input("Digite um número: "))
-    num.append(n)
-
-soma(num[0], num[1])
-print(num
-
-
+# Exemplo de uso:
+numeros = [1, 2, 3, 4, 5]
+resultado = soma_vetor(numeros)
+print("A soma dos elementos do vetor é:", resultado)
