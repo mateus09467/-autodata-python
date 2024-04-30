@@ -1,0 +1,32 @@
+# Código em Python3 para demonstrar
+# atributos do now()
+
+# Importando o módulo datetime para now()
+import datetime 
+
+# usando now() para obter o horário atual
+horario_atual = datetime.datetime.now() 
+
+# Imprimindo os atributos do now().
+print ("Os atributos do now() são: ") 
+
+print ("Ano: ", end = "") 
+print (horario_atual.year) 
+
+print ("Mês: ", end = "") 
+print (horario_atual.month) 
+
+print ("Dia: ", end = "") 
+print (horario_atual.day) 
+
+print ("Hora: ", end = "") 
+print (horario_atual.hour) 
+
+print ("Minuto: ", end = "") 
+print (horario_atual.minute) 
+
+print ("Segundo: ", end = "") 
+print (horario_atual.second) 
+
+print ("Microsegundo: ", end = "") 
+print (horario_atual.microsecond)
