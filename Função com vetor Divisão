@@ -1,0 +1,10 @@
+def divisao_vetor(vetor):
+    resultado = vetor[0] # Inicializa o resultado com o primeiro elemento
+    for elemento in vetor[1:]:
+        resultado /= elemento
+    return resultado
+
+# Exemplo de uso:
+numeros = [100, 2, 5]
+resultado = divisao_vetor(numeros)
+print("O resultado da divisão dos elementos do vetor é:", resultado)
