@@ -1,0 +1,16 @@
+import os 
+
+def soma(a, b):
+    os.system("cls||clear")
+    print(a + b)
+
+num = []
+
+for i in range(2):
+    n = int(input("Digite um número: "))
+    num.append(n)
+
+soma(num[0], num[1])
+print(num
+
+
